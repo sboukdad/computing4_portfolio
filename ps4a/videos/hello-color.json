@@ -1,0 +1,33 @@
+{
+    "width": 400,
+    "height": 400,
+    "scene":
+    {
+        "shape": "composite",
+        "keyframes": [
+            {"t":0, "x":0, "y":0}
+        ],
+        "children":[
+            {
+                "shape": "text",
+                "text": "Hello!",
+                "font": "Roboto-Regular.ttf",
+                "color": "FFFF00",
+                "keyframes": [
+                    {"t":0, "x":100, "y":150},
+                    {"t":5, "x":200, "y":225}
+                ]
+            },
+            {
+                "shape": "text",
+                "text": "Goodbye!",
+                "font": "Roboto-Regular.ttf",
+                "color": "00FFFFAA",
+                "keyframes": [
+                    {"t":0, "x":200, "y":250},
+                    {"t":5, "x":100, "y":325}
+                ]
+            }
+        ]
+    }
+}

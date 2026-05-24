@@ -1,0 +1,29 @@
+{
+    "width": 400,
+    "height": 400,
+    "scene":
+    {
+        "shape": "composite",
+        "keyframes": [
+            {"t":0, "x":0, "y":0}
+        ],
+        "children":[
+            {
+                "shape": "image",
+                "file": "images/blue_body_circle.png",
+                "keyframes": [
+                    {"t":0, "x":100, "y":200},
+                    {"t":5, "x":200, "y": 350}
+                ]
+            },
+            {
+                "shape": "image",
+                "file": "images/face_a.png",
+                "keyframes": [
+                    {"t":0, "x":100, "y":200},
+                    {"t":5, "x":200, "y": 350}
+                ]
+            }
+        ]
+    }
+}

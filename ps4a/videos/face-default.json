@@ -1,0 +1,23 @@
+{
+    "width": 400,
+    "height": 400,
+    "scene":
+    {
+        "shape": "composite",
+        "keyframes": [],
+        "children":[
+            {
+                "shape": "image",
+                "file": "images/blue_body_circle.png",
+                "keyframes": []
+            },
+            {
+                "shape": "image",
+                "file": "images/tile_cloud.png",
+                "keyframes": [
+                    {"t":0}
+                ]
+            }
+        ]
+    }
+}

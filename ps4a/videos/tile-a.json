@@ -1,0 +1,29 @@
+{
+    "width": 400,
+    "height": 400,
+    "scene":
+    {
+        "shape": "composite",
+        "keyframes": [
+            {"t":0, "x":0, "y":0}
+        ],
+        "children":[
+            {
+                "shape": "image",
+                "file": "images/tile_left.png",
+                "keyframes": [
+                    {"t":0, "x":160, "y":100},
+                    {"t":5, "x":200, "y": 200}
+                ]
+            },
+            {
+                "shape": "image",
+                "file": "images/tile_right.png",
+                "keyframes": [
+                    {"t":0, "x":240, "y":100},
+                    {"t":5, "x":280, "y": 200}
+                ]
+            }
+        ]
+    }
+}

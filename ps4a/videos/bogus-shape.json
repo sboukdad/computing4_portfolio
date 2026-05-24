@@ -1,0 +1,14 @@
+{
+    "width": 400,
+    "height": 400,
+    "scene":
+    {
+        "shape": "foobar",
+        "width": 100,
+        "height": 50,
+        "keyframes": [
+            {"t":0, "x":0, "y":0},
+            {"t":5, "x":300, "y": 350}
+        ]
+    }
+}

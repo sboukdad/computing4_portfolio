@@ -1,0 +1,14 @@
+{
+    "width": 400,
+    "height": 400,
+    "scene":
+    {
+        "shape": "text",
+        "font": "Roboto-Regular.ttf",
+        "text": "Hello, world!",
+        "keyframes": [
+            {"t": 0, "x":10, "y":10},
+            {"t": 5, "x":100, "y":200}
+        ]
+    }
+}

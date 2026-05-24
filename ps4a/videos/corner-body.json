@@ -1,0 +1,12 @@
+{
+    "width": 100,
+    "height": 100,
+    "scene":
+    {
+        "shape": "image",
+        "file": "images/red_body_rhombus.png",
+        "keyframes": [
+            {"t":0, "x":0, "y":0}
+        ]
+    }
+}

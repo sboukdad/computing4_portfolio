@@ -1,0 +1,15 @@
+{
+    "width": 400,
+    "height": 400,
+    "scene":
+    {
+        "shape": "image",
+        "file": "images/tile_exclamation.png",
+        "keyframes": [
+            {"t":0, "x":40, "y":40},
+            {"t":1, "x":360, "y":40},
+            {"t":3, "x":40, "y":360},
+            {"t":4, "x":360, "y": 360}
+        ]
+    }
+}
