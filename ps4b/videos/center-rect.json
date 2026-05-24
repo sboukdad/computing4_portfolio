@@ -1,0 +1,15 @@
+{
+    "width": 400,
+    "height": 300,
+    "scene":
+    {
+        "shape": "rect",
+        "x": -50,
+        "y": -25,
+        "width": 100,
+        "height": 50,
+        "keyframes": [
+            {"t":0, "x":200, "y":150}
+        ]
+    }
+}

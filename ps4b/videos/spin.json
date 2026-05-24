@@ -1,0 +1,16 @@
+{
+    "width": 200,
+    "height": 200,
+    "scene":
+    {
+        "shape": "image",
+        "file": "images/face_a.png",
+        "keyframes": [
+            {"t":0, "x":100, "y":100, "theta":-90},
+            {"t":1, "x":100, "y":100, "theta":0},
+            {"t":2, "x":100, "y":100, "theta":90},
+            {"t":3, "x":100, "y":100, "theta":180},
+            {"t":4, "x":100, "y":100, "theta":270}
+        ]
+    }
+}

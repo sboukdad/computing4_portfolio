@@ -1,0 +1,73 @@
+{
+    "width": 400,
+    "height": 400,
+    "scene":
+    {
+        "shape": "composite",
+        "keyframes": [
+            {"t":0, "x":100, "y":200},
+            {"t":5, "x":200, "y": 350}
+        ],
+        "children":[
+            {
+                "shape": "image",
+                "file": "images/blue_body_circle.png",
+                "keyframes": [{"t":0}]
+            },
+            {
+                "shape": "image",
+                "file": "images/face_a.png",
+                "keyframes": [
+                    {"t": 0, "x":0, "y":0}
+                ]
+            },
+            {
+                "shape": "image",
+                "file": "images/hand_yellow_open.png",
+                "keyframes": [
+                    {"t": 0, "x":35, "y":-20, "theta":0},
+                    {"t": 2, "x":55, "y":0, "theta":60},
+                    {"t": 4, "x":35, "y":-20, "theta":0},
+                    {"t": 6, "x":55, "y":0, "theta":60},
+                    {"t": 8, "x":35, "y":-20, "theta":0},
+                    {"t": 10, "x":55, "y":0, "theta":60}
+                ]
+            },
+            {
+                "shape": "image",
+                "file": "images/hand_yellow_open.png",
+                "keyframes": [
+                    {"t": 0, "x":-35, "y":-20, "theta":0, "scale-x":-1},
+                    {"t": 2, "x":-55, "y":0, "theta":-60, "scale-x":-1},
+                    {"t": 4, "x":-35, "y":-20, "theta":0, "scale-x":-1},
+                    {"t": 6, "x":-55, "y":0, "theta":-60, "scale-x":-1},
+                    {"t": 8, "x":-35, "y":-20, "theta":0, "scale-x":-1},
+                    {"t": 10, "x":-55, "y":0, "theta":-60, "scale-x":-1}
+                ]
+            },
+            {
+                "shape": "composite",
+                "keyframes": [
+                    {"t": 0, "x":0, "y":-75}
+                ],
+                "children": [
+                    {
+                        "shape": "rect",
+                        "width": 80,
+                        "height": 30,
+                        "color": "99009999",
+                        "keyframes": [{"t":0}]
+                    },
+                    {
+                        "shape": "text",
+                        "font": "Roboto-Regular.ttf",
+                        "text": "Hello!",
+                        "keyframes": [
+                            {"t": 0, "x":2, "y":-4}
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

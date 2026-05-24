@@ -1,0 +1,26 @@
+{
+    "width": 400,
+    "height": 400,
+    "scene":
+    {
+        "shape": "composite",
+        "keyframes": [
+            {"t":0, "x":100, "y":200},
+            {"t":5, "x":200, "y": 350}
+        ],
+        "children":[
+            {
+                "shape": "image",
+                "file": "images/green_body_squircle.png",
+                "keyframes": [{"t":0}]
+            },
+            {
+                "shape": "image",
+                "file": "images/face_b.png",
+                "keyframes": [
+                    {"t": 0, "x":0, "y":0}
+                ]
+            }
+        ]
+    }
+}

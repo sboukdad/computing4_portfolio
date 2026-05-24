@@ -1,0 +1,30 @@
+{
+    "width": 400,
+    "height": 400,
+    "scene":
+    {
+        "shape": "composite",
+        "keyframes": [
+            {"t":0, "x":100, "y":200, "theta":-90},
+            {"t":5, "x":200, "y": 350, "theta":45}
+        ],
+        "children":[
+            {
+                "shape": "image",
+                "file": "images/tile_left.png",
+                "keyframes": [
+                    {"t": 0, "x":0, "y":-40, "theta":90},
+                    {"t": 5, "x":0, "y":40, "theta": -90}
+                ]
+            },
+            {
+                "shape": "image",
+                "file": "images/tile_right.png",
+                "keyframes": [
+                    {"t": 0, "x":0, "y":40, "theta": 90},
+                    {"t": 5, "x":0, "y":-40, "theta": -90}
+                ]
+            }
+        ]
+    }
+}

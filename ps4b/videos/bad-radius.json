@@ -1,0 +1,13 @@
+{
+    "width": 400,
+    "height": 400,
+    "scene":
+    {
+        "shape": "circle",
+        "radius": "50",
+        "keyframes": [
+            {"t":0, "x":50, "y":50},
+            {"t":5, "x":300, "y": 300}
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "width": 400,
+    "height": 400,
+    "scene":
+    {
+        "shape": "composite",
+        "keyframes": [
+            {"t":0, "x":100, "y":200},
+            {"t":5, "x":200, "y": 350}
+        ],
+        "children":[
+            {
+                "shape": "image",
+                "file": "images/tile_half_left.png",
+                "keyframes": [{"t":0, "x":-40, "y":0}]
+            },
+            {
+                "shape": "image",
+                "file": "images/tile_half_right.png",
+                "keyframes": [
+                    {"t": 0, "x":40, "y":0}
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "width": 400,
+    "height": 400,
+    "scene":
+    {
+        "shape": "composite",
+        "keyframes": [
+            {"t": 0, "x":100, "y": 300},
+            {"t": 5, "x":300, "y": 100}
+        ], 
+        "children": [
+            {
+                "shape": "rect",
+                "width": 100,
+                "height": 50,
+                "color": "FF0000",
+                "keyframes": [
+                    {"t":0, "x":-100, "y":-50},
+                    {"t":5, "x":-100, "y": 50}
+                ]
+            },
+            {
+                "shape": "rect",
+                "width": 50,
+                "height": 100,
+                "color": "0000FF",
+                "keyframes": [
+                    {"t":0, "x":0, "y":-100},
+                    {"t":5, "x":-100, "y": -100}
+                ]
+            },
+            {
+                "shape": "rect",
+                "width": 100,
+                "height": 50,
+                "color": "00FF00",
+                "keyframes": [
+                    {"t":0, "x":0, "y":0},
+                    {"t":5, "x":0, "y": -100}
+                ]
+            },
+            {
+                "shape": "rect",
+                "width": 50,
+                "height": 100,
+                "color": "AAAAAAAA",
+                "keyframes": [
+                    {"t":0, "x":-50, "y":0},
+                    {"t":5, "x":50, "y":0}
+                ]
+            }
+        ]
+
+    }
+}

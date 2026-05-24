@@ -1,0 +1,13 @@
+{
+    "width": 400,
+    "height": 400,
+    "scene":
+    {
+        "shape": "text",
+        "font": "Roboto-Regular.ttf",
+        "text": "Lorem ipsum dolor sit amet.",
+        "keyframes": [
+            {"t": 0, "x":0, "y":0}
+        ]
+    }
+}

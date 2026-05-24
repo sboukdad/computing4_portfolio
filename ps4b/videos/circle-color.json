@@ -1,0 +1,50 @@
+{
+    "width": 400,
+    "height": 400,
+    "scene":
+    {
+        "shape": "composite",
+        "keyframes": [
+            {"t": 0, "x":200, "y":200}
+        ], 
+        "children": [
+            {
+                "shape": "circle",
+                "radius": 50,
+                "color": "FF0000",
+                "keyframes": [
+                    {"t":0, "x":-50, "y":-50},
+                    {"t":5, "x":0, "y":-50}
+                ]
+            },
+            {
+                "shape": "circle",
+                "radius": 50,
+                "color": "00FF00",
+                "keyframes": [
+                    {"t":0, "x":50, "y":-50},
+                    {"t":5, "x":-50, "y": 50}
+                ]
+            },
+            {
+                "shape": "circle",
+                "radius": 50,
+                "color": "0000FF",
+                "keyframes": [
+                    {"t":0, "x":0, "y":50},
+                    {"t":5, "x":50, "y": 50}
+                ]
+            },
+            {
+                "shape": "circle",
+                "radius": 50,
+                "color": "99999999",
+                "keyframes": [
+                    {"t":0, "x":0, "y":0},
+                    {"t":5, "x":0, "y": 0}
+                ]
+            }
+        ]
+
+    }
+}
