@@ -1,13 +1,17 @@
-/***********************************************
+/***********************************************************
  * Copyright Salma Boukdad
  * 
  * Filename: EDistance.cpp
  * Course: COMP.2040.203
  * Date: 5/20/26
  * Description: This implements the EDistance
- *  TODO: blueprint. This file utilizes dynamic programming
- *  in order to have 
-************************************************/
+ *  class. This file utilizes dynamic programming
+ *  to compute the edit distance between two DNA strings by
+ *  filling an (M+1) * (N+1) cost matrix bottom-up. It
+ *  provides penalty scoring, three-way minimum, optimal
+ *  distane calculation, and alignment traceback with gap
+ *  and mismatch costs.
+************************************************************/
 
 #include "EDistance.hpp"
 #include <algorithm>

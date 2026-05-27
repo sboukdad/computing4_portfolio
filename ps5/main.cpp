@@ -1,12 +1,15 @@
-/***********************************************
+/*******************************************************
  * Copyright Salma Boukdad
  * 
  * @Filename: main.cpp
  * @Course: COMP.2040.203
  * @Date: 5/22/26
- * @Description: Entry point for EDistance. This
- *  program accepts 
-************************************************/
+ * @Description: Entry point for EDistance program. 
+ *  It reads two DNA strings from stdin, computes
+ *  their edit distance and optimal alignment using
+ *  the EDistance class, and prints the results along
+ *  with execution time measured via SFML's clock.
+********************************************************/
 
 #include <iostream>
 #include <stdexcept>

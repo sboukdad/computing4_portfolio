@@ -1,11 +1,15 @@
-/**********************************************
+/****************************************************************
  * Copyright Salma Boukdad
  *
  * Filename: test.cpp
  * Course: COMP.2040.203
  * Date: 5/20/26
- * Description: Unit tests for opt
- **********************************************/
+ * Description: Unit tests for the EDistance
+ *  class using Boost.Test. Tests cover constructor validation,
+ *  penalty scoring, three-way minimum, optimal distance 
+ *  computation, and alignment traceback cost accuracty against
+ *  known DNA string pairs
+ ***************************************************************/
 
 #define BOOST_TEST_DYN_LINK
 #define BOOST_TEST_MODULE DnaTests
