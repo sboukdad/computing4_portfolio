@@ -1,0 +1,1207 @@
+Device Boot Report
+
+InTouch log file: device6_intouch.log
+Lines Scanned: 90671
+
+Device boot count: initiated = 14, completed: 12
+
+=== Device boot ===
+2(device6_intouch.log): 2014-04-03 20:27:48 Boot Start
+161(device6_intouch.log): 2014-04-03 20:31:01 Boot Completed
+	Boot Time: 193000ms
+
+Services
+	Logging
+		 Start: 18(device6_intouch.log)
+		 Completed: 19(device6_intouch.log)
+		 Elapsed Time: 271 ms
+	DatabaseInitialize
+		 Start: 20(device6_intouch.log)
+		 Completed: 44(device6_intouch.log)
+		 Elapsed Time: 32365 ms
+	MessagingService
+		 Start: 45(device6_intouch.log)
+		 Completed: 47(device6_intouch.log)
+		 Elapsed Time: 5488 ms
+	HealthMonitorService
+		 Start: 109(device6_intouch.log)
+		 Completed: 110(device6_intouch.log)
+		 Elapsed Time: 247 ms
+	Persistence
+		 Start: 111(device6_intouch.log)
+		 Completed: 113(device6_intouch.log)
+		 Elapsed Time: 22278 ms
+	ConfigurationService
+		 Start: 114(device6_intouch.log)
+		 Completed: 115(device6_intouch.log)
+		 Elapsed Time: 0 ms
+	CacheService
+		 Start: 116(device6_intouch.log)
+		 Completed: 117(device6_intouch.log)
+		 Elapsed Time: 1143 ms
+	ThemingService
+		 Start: 118(device6_intouch.log)
+		 Completed: 119(device6_intouch.log)
+		 Elapsed Time: 0 ms
+	LandingPadService
+		 Start: 120(device6_intouch.log)
+		 Completed: 121(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	StagingService
+		 Start: 122(device6_intouch.log)
+		 Completed: 123(device6_intouch.log)
+		 Elapsed Time: 3290 ms
+	PortConfigurationService
+		 Start: 124(device6_intouch.log)
+		 Completed: 125(device6_intouch.log)
+		 Elapsed Time: 54 ms
+	DeviceIOService
+		 Start: 126(device6_intouch.log)
+		 Completed: 127(device6_intouch.log)
+		 Elapsed Time: 26 ms
+	BellService
+		 Start: 128(device6_intouch.log)
+		 Completed: 129(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	AVFeedbackService
+		 Start: 130(device6_intouch.log)
+		 Completed: 131(device6_intouch.log)
+		 Elapsed Time: 27 ms
+	GateService
+		 Start: 132(device6_intouch.log)
+		 Completed: 133(device6_intouch.log)
+		 Elapsed Time: 1 ms
+	BiometricService
+		 Start: 134(device6_intouch.log)
+		 Completed: 136(device6_intouch.log)
+		 Elapsed Time: 176 ms
+	StateManager
+		 Start: 137(device6_intouch.log)
+		 Completed: 138(device6_intouch.log)
+		 Elapsed Time: 1660 ms
+	OfflineSmartviewService
+		 Start: 139(device6_intouch.log)
+		 Completed: 140(device6_intouch.log)
+		 Elapsed Time: 11 ms
+	ReaderDataService
+		 Start: 141(device6_intouch.log)
+		 Completed: 142(device6_intouch.log)
+		 Elapsed Time: 11 ms
+	DiagnosticsService
+		 Start: 145(device6_intouch.log)
+		 Completed: 149(device6_intouch.log)
+		 Elapsed Time: 206 ms
+	WATCHDOG
+		 Start: 147(device6_intouch.log)
+		 Completed: 150(device6_intouch.log)
+		 Elapsed Time: 190 ms
+	DatabaseThreads
+		 Start: 143(device6_intouch.log)
+		 Completed: 151(device6_intouch.log)
+		 Elapsed Time: 398 ms
+	SoftLoadService
+		 Start: 148(device6_intouch.log)
+		 Completed: 152(device6_intouch.log)
+		 Elapsed Time: 2932 ms
+	ProtocolService
+		 Start: 146(device6_intouch.log)
+		 Completed: 155(device6_intouch.log)
+		 Elapsed Time: 13020 ms
+
+=== Device boot ===
+82079(device6_intouch.log): 2014-04-09 14:51:15 Boot Start
+82303(device6_intouch.log): 2014-04-09 14:54:39 Boot Completed
+	Boot Time: 204000ms
+
+Services
+	Logging
+		 Start: 82099(device6_intouch.log)
+		 Completed: 82100(device6_intouch.log)
+		 Elapsed Time: 591 ms
+	DatabaseInitialize
+		 Start: 82101(device6_intouch.log)
+		 Completed: 82127(device6_intouch.log)
+		 Elapsed Time: 35131 ms
+	MessagingService
+		 Start: 82128(device6_intouch.log)
+		 Completed: 82130(device6_intouch.log)
+		 Elapsed Time: 6351 ms
+	HealthMonitorService
+		 Start: 82192(device6_intouch.log)
+		 Completed: 82193(device6_intouch.log)
+		 Elapsed Time: 164 ms
+	Persistence
+		 Start: 82194(device6_intouch.log)
+		 Completed: 82196(device6_intouch.log)
+		 Elapsed Time: 19408 ms
+	ConfigurationService
+		 Start: 82197(device6_intouch.log)
+		 Completed: 82198(device6_intouch.log)
+		 Elapsed Time: 0 ms
+	PortConfigurationService
+		 Start: 82199(device6_intouch.log)
+		 Completed: 82200(device6_intouch.log)
+		 Elapsed Time: 57 ms
+	CacheService
+		 Start: 82201(device6_intouch.log)
+		 Completed: 82202(device6_intouch.log)
+		 Elapsed Time: 895 ms
+	DeviceIOService
+		 Start: 82203(device6_intouch.log)
+		 Completed: 82204(device6_intouch.log)
+		 Elapsed Time: 62 ms
+	LandingPadService
+		 Start: 82205(device6_intouch.log)
+		 Completed: 82206(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	GateService
+		 Start: 82207(device6_intouch.log)
+		 Completed: 82208(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	AVFeedbackService
+		 Start: 82209(device6_intouch.log)
+		 Completed: 82210(device6_intouch.log)
+		 Elapsed Time: 43 ms
+	StagingService
+		 Start: 82211(device6_intouch.log)
+		 Completed: 82212(device6_intouch.log)
+		 Elapsed Time: 8587 ms
+	BellService
+		 Start: 82213(device6_intouch.log)
+		 Completed: 82214(device6_intouch.log)
+		 Elapsed Time: 1 ms
+	ReaderDataService
+		 Start: 82215(device6_intouch.log)
+		 Completed: 82216(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	BiometricService
+		 Start: 82217(device6_intouch.log)
+		 Completed: 82219(device6_intouch.log)
+		 Elapsed Time: 19 ms
+	StateManager
+		 Start: 82220(device6_intouch.log)
+		 Completed: 82221(device6_intouch.log)
+		 Elapsed Time: 2336 ms
+	OfflineSmartviewService
+		 Start: 82222(device6_intouch.log)
+		 Completed: 82223(device6_intouch.log)
+		 Elapsed Time: 12 ms
+	ThemingService
+		 Start: 82224(device6_intouch.log)
+		 Completed: 82225(device6_intouch.log)
+		 Elapsed Time: 1 ms
+	DiagnosticsService
+		 Start: 82276(device6_intouch.log)
+		 Completed: 82277(device6_intouch.log)
+		 Elapsed Time: 254 ms
+	WATCHDOG
+		 Start: 82274(device6_intouch.log)
+		 Completed: 82278(device6_intouch.log)
+		 Elapsed Time: 284 ms
+	DatabaseThreads
+		 Start: 82271(device6_intouch.log)
+		 Completed: 82281(device6_intouch.log)
+		 Elapsed Time: 2836 ms
+	SoftLoadService
+		 Start: 82273(device6_intouch.log)
+		 Completed: 82282(device6_intouch.log)
+		 Elapsed Time: 2927 ms
+
+=== Device boot ===
+85398(device6_intouch.log): 2014-04-10 18:13:13 Boot Start
+85564(device6_intouch.log): 2014-04-10 18:16:37 Boot Completed
+	Boot Time: 204000ms
+
+Services
+	Logging
+		 Start: 85419(device6_intouch.log)
+		 Completed: 85420(device6_intouch.log)
+		 Elapsed Time: 256 ms
+	DatabaseInitialize
+		 Start: 85421(device6_intouch.log)
+		 Completed: 85447(device6_intouch.log)
+		 Elapsed Time: 35191 ms
+	MessagingService
+		 Start: 85448(device6_intouch.log)
+		 Completed: 85450(device6_intouch.log)
+		 Elapsed Time: 7848 ms
+	HealthMonitorService
+		 Start: 85512(device6_intouch.log)
+		 Completed: 85513(device6_intouch.log)
+		 Elapsed Time: 211 ms
+	Persistence
+		 Start: 85514(device6_intouch.log)
+		 Completed: 85516(device6_intouch.log)
+		 Elapsed Time: 18367 ms
+	ConfigurationService
+		 Start: 85517(device6_intouch.log)
+		 Completed: 85518(device6_intouch.log)
+		 Elapsed Time: 0 ms
+	ThemingService
+		 Start: 85519(device6_intouch.log)
+		 Completed: 85520(device6_intouch.log)
+		 Elapsed Time: 0 ms
+	LandingPadService
+		 Start: 85521(device6_intouch.log)
+		 Completed: 85522(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	CacheService
+		 Start: 85523(device6_intouch.log)
+		 Completed: 85524(device6_intouch.log)
+		 Elapsed Time: 1048 ms
+	StagingService
+		 Start: 85525(device6_intouch.log)
+		 Completed: 85526(device6_intouch.log)
+		 Elapsed Time: 8343 ms
+	PortConfigurationService
+		 Start: 85527(device6_intouch.log)
+		 Completed: 85528(device6_intouch.log)
+		 Elapsed Time: 52 ms
+	DeviceIOService
+		 Start: 85529(device6_intouch.log)
+		 Completed: 85530(device6_intouch.log)
+		 Elapsed Time: 24 ms
+	BiometricService
+		 Start: 85531(device6_intouch.log)
+		 Completed: 85533(device6_intouch.log)
+		 Elapsed Time: 12 ms
+	StateManager
+		 Start: 85534(device6_intouch.log)
+		 Completed: 85535(device6_intouch.log)
+		 Elapsed Time: 2870 ms
+	BellService
+		 Start: 85536(device6_intouch.log)
+		 Completed: 85537(device6_intouch.log)
+		 Elapsed Time: 3 ms
+	ReaderDataService
+		 Start: 85538(device6_intouch.log)
+		 Completed: 85539(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	OfflineSmartviewService
+		 Start: 85540(device6_intouch.log)
+		 Completed: 85541(device6_intouch.log)
+		 Elapsed Time: 15 ms
+	AVFeedbackService
+		 Start: 85542(device6_intouch.log)
+		 Completed: 85543(device6_intouch.log)
+		 Elapsed Time: 38 ms
+	GateService
+		 Start: 85544(device6_intouch.log)
+		 Completed: 85545(device6_intouch.log)
+		 Elapsed Time: 1 ms
+	DiagnosticsService
+		 Start: 85553(device6_intouch.log)
+		 Completed: 85554(device6_intouch.log)
+		 Elapsed Time: 255 ms
+	WATCHDOG
+		 Start: 85551(device6_intouch.log)
+		 Completed: 85555(device6_intouch.log)
+		 Elapsed Time: 421 ms
+	DatabaseThreads
+		 Start: 85548(device6_intouch.log)
+		 Completed: 85559(device6_intouch.log)
+		 Elapsed Time: 2802 ms
+	SoftLoadService
+		 Start: 85550(device6_intouch.log)
+		 Completed: 85561(device6_intouch.log)
+		 Elapsed Time: 2828 ms
+
+=== Device boot ===
+85957(device6_intouch.log): 2014-04-10 19:11:05 Boot Start
+86123(device6_intouch.log): 2014-04-10 19:14:24 Boot Completed
+	Boot Time: 199000ms
+
+Services
+	Logging
+		 Start: 85978(device6_intouch.log)
+		 Completed: 85979(device6_intouch.log)
+		 Elapsed Time: 289 ms
+	DatabaseInitialize
+		 Start: 85980(device6_intouch.log)
+		 Completed: 86004(device6_intouch.log)
+		 Elapsed Time: 33943 ms
+	MessagingService
+		 Start: 86007(device6_intouch.log)
+		 Completed: 86009(device6_intouch.log)
+		 Elapsed Time: 7570 ms
+	HealthMonitorService
+		 Start: 86071(device6_intouch.log)
+		 Completed: 86072(device6_intouch.log)
+		 Elapsed Time: 264 ms
+	Persistence
+		 Start: 86073(device6_intouch.log)
+		 Completed: 86075(device6_intouch.log)
+		 Elapsed Time: 18488 ms
+	ConfigurationService
+		 Start: 86076(device6_intouch.log)
+		 Completed: 86077(device6_intouch.log)
+		 Elapsed Time: 0 ms
+	LandingPadService
+		 Start: 86078(device6_intouch.log)
+		 Completed: 86079(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	ThemingService
+		 Start: 86080(device6_intouch.log)
+		 Completed: 86081(device6_intouch.log)
+		 Elapsed Time: 1 ms
+	PortConfigurationService
+		 Start: 86082(device6_intouch.log)
+		 Completed: 86083(device6_intouch.log)
+		 Elapsed Time: 95 ms
+	CacheService
+		 Start: 86084(device6_intouch.log)
+		 Completed: 86085(device6_intouch.log)
+		 Elapsed Time: 1114 ms
+	StagingService
+		 Start: 86086(device6_intouch.log)
+		 Completed: 86087(device6_intouch.log)
+		 Elapsed Time: 7899 ms
+	DeviceIOService
+		 Start: 86088(device6_intouch.log)
+		 Completed: 86089(device6_intouch.log)
+		 Elapsed Time: 24 ms
+	GateService
+		 Start: 86090(device6_intouch.log)
+		 Completed: 86091(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	AVFeedbackService
+		 Start: 86092(device6_intouch.log)
+		 Completed: 86093(device6_intouch.log)
+		 Elapsed Time: 32 ms
+	ReaderDataService
+		 Start: 86094(device6_intouch.log)
+		 Completed: 86095(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	BiometricService
+		 Start: 86096(device6_intouch.log)
+		 Completed: 86098(device6_intouch.log)
+		 Elapsed Time: 13 ms
+	BellService
+		 Start: 86099(device6_intouch.log)
+		 Completed: 86100(device6_intouch.log)
+		 Elapsed Time: 1 ms
+	StateManager
+		 Start: 86101(device6_intouch.log)
+		 Completed: 86102(device6_intouch.log)
+		 Elapsed Time: 2027 ms
+	OfflineSmartviewService
+		 Start: 86103(device6_intouch.log)
+		 Completed: 86104(device6_intouch.log)
+		 Elapsed Time: 41 ms
+	WATCHDOG
+		 Start: 86110(device6_intouch.log)
+		 Completed: 86113(device6_intouch.log)
+		 Elapsed Time: 82 ms
+	DiagnosticsService
+		 Start: 86112(device6_intouch.log)
+		 Completed: 86114(device6_intouch.log)
+		 Elapsed Time: 202 ms
+	DatabaseThreads
+		 Start: 86107(device6_intouch.log)
+		 Completed: 86117(device6_intouch.log)
+		 Elapsed Time: 2786 ms
+	SoftLoadService
+		 Start: 86109(device6_intouch.log)
+		 Completed: 86119(device6_intouch.log)
+		 Elapsed Time: 2991 ms
+
+=== Device boot ===
+86127(device6_intouch.log): 2014-04-10 19:18:36 Boot Start
+86293(device6_intouch.log): 2014-04-10 19:21:56 Boot Completed
+	Boot Time: 200000ms
+
+Services
+	Logging
+		 Start: 86148(device6_intouch.log)
+		 Completed: 86149(device6_intouch.log)
+		 Elapsed Time: 282 ms
+	DatabaseInitialize
+		 Start: 86150(device6_intouch.log)
+		 Completed: 86176(device6_intouch.log)
+		 Elapsed Time: 34292 ms
+	MessagingService
+		 Start: 86177(device6_intouch.log)
+		 Completed: 86179(device6_intouch.log)
+		 Elapsed Time: 6619 ms
+	HealthMonitorService
+		 Start: 86241(device6_intouch.log)
+		 Completed: 86242(device6_intouch.log)
+		 Elapsed Time: 187 ms
+	Persistence
+		 Start: 86243(device6_intouch.log)
+		 Completed: 86245(device6_intouch.log)
+		 Elapsed Time: 18914 ms
+	ConfigurationService
+		 Start: 86246(device6_intouch.log)
+		 Completed: 86247(device6_intouch.log)
+		 Elapsed Time: 0 ms
+	ThemingService
+		 Start: 86248(device6_intouch.log)
+		 Completed: 86249(device6_intouch.log)
+		 Elapsed Time: 0 ms
+	LandingPadService
+		 Start: 86250(device6_intouch.log)
+		 Completed: 86251(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	CacheService
+		 Start: 86252(device6_intouch.log)
+		 Completed: 86253(device6_intouch.log)
+		 Elapsed Time: 963 ms
+	StagingService
+		 Start: 86254(device6_intouch.log)
+		 Completed: 86255(device6_intouch.log)
+		 Elapsed Time: 8053 ms
+	PortConfigurationService
+		 Start: 86256(device6_intouch.log)
+		 Completed: 86257(device6_intouch.log)
+		 Elapsed Time: 56 ms
+	DeviceIOService
+		 Start: 86258(device6_intouch.log)
+		 Completed: 86259(device6_intouch.log)
+		 Elapsed Time: 22 ms
+	BiometricService
+		 Start: 86260(device6_intouch.log)
+		 Completed: 86262(device6_intouch.log)
+		 Elapsed Time: 12 ms
+	StateManager
+		 Start: 86263(device6_intouch.log)
+		 Completed: 86264(device6_intouch.log)
+		 Elapsed Time: 3052 ms
+	BellService
+		 Start: 86265(device6_intouch.log)
+		 Completed: 86266(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	ReaderDataService
+		 Start: 86267(device6_intouch.log)
+		 Completed: 86268(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	OfflineSmartviewService
+		 Start: 86269(device6_intouch.log)
+		 Completed: 86270(device6_intouch.log)
+		 Elapsed Time: 15 ms
+	AVFeedbackService
+		 Start: 86271(device6_intouch.log)
+		 Completed: 86272(device6_intouch.log)
+		 Elapsed Time: 33 ms
+	GateService
+		 Start: 86273(device6_intouch.log)
+		 Completed: 86274(device6_intouch.log)
+		 Elapsed Time: 1 ms
+	DiagnosticsService
+		 Start: 86282(device6_intouch.log)
+		 Completed: 86283(device6_intouch.log)
+		 Elapsed Time: 114 ms
+	WATCHDOG
+		 Start: 86281(device6_intouch.log)
+		 Completed: 86284(device6_intouch.log)
+		 Elapsed Time: 178 ms
+	DatabaseThreads
+		 Start: 86277(device6_intouch.log)
+		 Completed: 86287(device6_intouch.log)
+		 Elapsed Time: 2833 ms
+	SoftLoadService
+		 Start: 86280(device6_intouch.log)
+		 Completed: 86289(device6_intouch.log)
+		 Elapsed Time: 2835 ms
+
+=== Device boot ===
+86568(device6_intouch.log): 2014-04-10 19:32:16 Boot Start
+86732(device6_intouch.log): 2014-04-10 19:35:36 Boot Completed
+	Boot Time: 200000ms
+
+Services
+	Logging
+		 Start: 86588(device6_intouch.log)
+		 Completed: 86589(device6_intouch.log)
+		 Elapsed Time: 291 ms
+	DatabaseInitialize
+		 Start: 86590(device6_intouch.log)
+		 Completed: 86614(device6_intouch.log)
+		 Elapsed Time: 33829 ms
+	MessagingService
+		 Start: 86617(device6_intouch.log)
+		 Completed: 86619(device6_intouch.log)
+		 Elapsed Time: 5723 ms
+	HealthMonitorService
+		 Start: 86681(device6_intouch.log)
+		 Completed: 86682(device6_intouch.log)
+		 Elapsed Time: 173 ms
+	Persistence
+		 Start: 86683(device6_intouch.log)
+		 Completed: 86684(device6_intouch.log)
+		 Elapsed Time: 22924 ms
+	ConfigurationService
+		 Start: 86685(device6_intouch.log)
+		 Completed: 86686(device6_intouch.log)
+		 Elapsed Time: 0 ms
+	LandingPadService
+		 Start: 86687(device6_intouch.log)
+		 Completed: 86688(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	PortConfigurationService
+		 Start: 86689(device6_intouch.log)
+		 Completed: 86690(device6_intouch.log)
+		 Elapsed Time: 65 ms
+	DeviceIOService
+		 Start: 86691(device6_intouch.log)
+		 Completed: 86692(device6_intouch.log)
+		 Elapsed Time: 53 ms
+	GateService
+		 Start: 86693(device6_intouch.log)
+		 Completed: 86694(device6_intouch.log)
+		 Elapsed Time: 3 ms
+	CacheService
+		 Start: 86695(device6_intouch.log)
+		 Completed: 86696(device6_intouch.log)
+		 Elapsed Time: 872 ms
+	AVFeedbackService
+		 Start: 86697(device6_intouch.log)
+		 Completed: 86698(device6_intouch.log)
+		 Elapsed Time: 34 ms
+	StagingService
+		 Start: 86699(device6_intouch.log)
+		 Completed: 86700(device6_intouch.log)
+		 Elapsed Time: 7576 ms
+	BellService
+		 Start: 86701(device6_intouch.log)
+		 Completed: 86702(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	ReaderDataService
+		 Start: 86703(device6_intouch.log)
+		 Completed: 86704(device6_intouch.log)
+		 Elapsed Time: 499 ms
+	ThemingService
+		 Start: 86705(device6_intouch.log)
+		 Completed: 86706(device6_intouch.log)
+		 Elapsed Time: 0 ms
+	BiometricService
+		 Start: 86707(device6_intouch.log)
+		 Completed: 86709(device6_intouch.log)
+		 Elapsed Time: 12 ms
+	StateManager
+		 Start: 86710(device6_intouch.log)
+		 Completed: 86711(device6_intouch.log)
+		 Elapsed Time: 2273 ms
+	OfflineSmartviewService
+		 Start: 86712(device6_intouch.log)
+		 Completed: 86713(device6_intouch.log)
+		 Elapsed Time: 20 ms
+	WATCHDOG
+		 Start: 86720(device6_intouch.log)
+		 Completed: 86722(device6_intouch.log)
+		 Elapsed Time: 97 ms
+	DiagnosticsService
+		 Start: 86719(device6_intouch.log)
+		 Completed: 86723(device6_intouch.log)
+		 Elapsed Time: 104 ms
+	DatabaseThreads
+		 Start: 86716(device6_intouch.log)
+		 Completed: 86726(device6_intouch.log)
+		 Elapsed Time: 2953 ms
+	SoftLoadService
+		 Start: 86721(device6_intouch.log)
+		 Completed: 86729(device6_intouch.log)
+		 Elapsed Time: 3194 ms
+
+=== Device boot ===
+86750(device6_intouch.log): 2014-04-10 20:06:27 Boot Start
+86821(device6_intouch.log): 2014-04-10 20:09:07 Boot Completed
+	Boot Time: 160000ms
+
+Services
+	Logging
+		 Start: 86765(device6_intouch.log)
+		 Completed: 86766(device6_intouch.log)
+		 Elapsed Time: 305 ms
+	DatabaseInitialize
+		 Start: 86767(device6_intouch.log)
+		 Completed: 86768(device6_intouch.log)
+		 Elapsed Time: 33168 ms
+	MessagingService
+		 Start: 86769(device6_intouch.log)
+		 Completed: 86770(device6_intouch.log)
+		 Elapsed Time: 5776 ms
+	HealthMonitorService
+		 Start: 86775(device6_intouch.log)
+		 Completed: 86776(device6_intouch.log)
+		 Elapsed Time: 575 ms
+	Persistence
+		 Start: 86777(device6_intouch.log)
+		 Completed: 86778(device6_intouch.log)
+		 Elapsed Time: 18205 ms
+	ConfigurationService
+		 Start: 86779(device6_intouch.log)
+		 Completed: 86780(device6_intouch.log)
+		 Elapsed Time: 0 ms
+	CacheService
+		 Start: 86781(device6_intouch.log)
+		 Completed: 86782(device6_intouch.log)
+		 Elapsed Time: 1915 ms
+	ThemingService
+		 Start: 86783(device6_intouch.log)
+		 Completed: 86784(device6_intouch.log)
+		 Elapsed Time: 0 ms
+	LandingPadService
+		 Start: 86785(device6_intouch.log)
+		 Completed: 86786(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	PortConfigurationService
+		 Start: 86787(device6_intouch.log)
+		 Completed: 86788(device6_intouch.log)
+		 Elapsed Time: 43 ms
+	DeviceIOService
+		 Start: 86789(device6_intouch.log)
+		 Completed: 86790(device6_intouch.log)
+		 Elapsed Time: 24 ms
+	GateService
+		 Start: 86791(device6_intouch.log)
+		 Completed: 86792(device6_intouch.log)
+		 Elapsed Time: 196 ms
+	AVFeedbackService
+		 Start: 86793(device6_intouch.log)
+		 Completed: 86794(device6_intouch.log)
+		 Elapsed Time: 53 ms
+	StagingService
+		 Start: 86795(device6_intouch.log)
+		 Completed: 86796(device6_intouch.log)
+		 Elapsed Time: 6961 ms
+	BiometricService
+		 Start: 86797(device6_intouch.log)
+		 Completed: 86798(device6_intouch.log)
+		 Elapsed Time: 685 ms
+	StateManager
+		 Start: 86799(device6_intouch.log)
+		 Completed: 86800(device6_intouch.log)
+		 Elapsed Time: 1793 ms
+	OfflineSmartviewService
+		 Start: 86801(device6_intouch.log)
+		 Completed: 86802(device6_intouch.log)
+		 Elapsed Time: 12 ms
+	BellService
+		 Start: 86803(device6_intouch.log)
+		 Completed: 86804(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	ReaderDataService
+		 Start: 86805(device6_intouch.log)
+		 Completed: 86806(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	DiagnosticsService
+		 Start: 86808(device6_intouch.log)
+		 Completed: 86814(device6_intouch.log)
+		 Elapsed Time: 250 ms
+	WATCHDOG
+		 Start: 86810(device6_intouch.log)
+		 Completed: 86815(device6_intouch.log)
+		 Elapsed Time: 415 ms
+	SoftLoadService
+		 Start: 86811(device6_intouch.log)
+		 Completed: 86817(device6_intouch.log)
+		 Elapsed Time: 3307 ms
+	DatabaseThreads
+		 Start: 86812(device6_intouch.log)
+		 Completed: 86820(device6_intouch.log)
+		 Elapsed Time: 4099 ms
+
+=== Device boot ===
+86939(device6_intouch.log): 2014-04-11 00:15:56 Boot Start
+87111(device6_intouch.log): 2014-04-11 00:18:49 Boot Completed
+	Boot Time: 173000ms
+
+Services
+	Logging
+		 Start: 86959(device6_intouch.log)
+		 Completed: 86960(device6_intouch.log)
+		 Elapsed Time: 410 ms
+	DatabaseInitialize
+		 Start: 86961(device6_intouch.log)
+		 Completed: 86987(device6_intouch.log)
+		 Elapsed Time: 37703 ms
+	MessagingService
+		 Start: 86989(device6_intouch.log)
+		 Completed: 86991(device6_intouch.log)
+		 Elapsed Time: 8660 ms
+	HealthMonitorService
+		 Start: 87002(device6_intouch.log)
+		 Completed: 87003(device6_intouch.log)
+		 Elapsed Time: 219 ms
+	Persistence
+		 Start: 87004(device6_intouch.log)
+		 Completed: 87005(device6_intouch.log)
+		 Elapsed Time: 19331 ms
+	ConfigurationService
+		 Start: 87006(device6_intouch.log)
+		 Completed: 87007(device6_intouch.log)
+		 Elapsed Time: 0 ms
+	CacheService
+		 Start: 87008(device6_intouch.log)
+		 Completed: 87009(device6_intouch.log)
+		 Elapsed Time: 988 ms
+	ThemingService
+		 Start: 87010(device6_intouch.log)
+		 Completed: 87011(device6_intouch.log)
+		 Elapsed Time: 0 ms
+	LandingPadService
+		 Start: 87012(device6_intouch.log)
+		 Completed: 87013(device6_intouch.log)
+		 Elapsed Time: 10 ms
+	PortConfigurationService
+		 Start: 87014(device6_intouch.log)
+		 Completed: 87015(device6_intouch.log)
+		 Elapsed Time: 44 ms
+	StagingService
+		 Start: 87016(device6_intouch.log)
+		 Completed: 87017(device6_intouch.log)
+		 Elapsed Time: 8398 ms
+	DeviceIOService
+		 Start: 87018(device6_intouch.log)
+		 Completed: 87019(device6_intouch.log)
+		 Elapsed Time: 22 ms
+	ReaderDataService
+		 Start: 87020(device6_intouch.log)
+		 Completed: 87021(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	BiometricService
+		 Start: 87022(device6_intouch.log)
+		 Completed: 87023(device6_intouch.log)
+		 Elapsed Time: 677 ms
+	GateService
+		 Start: 87024(device6_intouch.log)
+		 Completed: 87025(device6_intouch.log)
+		 Elapsed Time: 158 ms
+	AVFeedbackService
+		 Start: 87026(device6_intouch.log)
+		 Completed: 87027(device6_intouch.log)
+		 Elapsed Time: 34 ms
+	StateManager
+		 Start: 87028(device6_intouch.log)
+		 Completed: 87029(device6_intouch.log)
+		 Elapsed Time: 2752 ms
+	OfflineSmartviewService
+		 Start: 87030(device6_intouch.log)
+		 Completed: 87031(device6_intouch.log)
+		 Elapsed Time: 18 ms
+	BellService
+		 Start: 87032(device6_intouch.log)
+		 Completed: 87033(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	WATCHDOG
+		 Start: 87083(device6_intouch.log)
+		 Completed: 87084(device6_intouch.log)
+		 Elapsed Time: 229 ms
+	DiagnosticsService
+		 Start: 87082(device6_intouch.log)
+		 Completed: 87085(device6_intouch.log)
+		 Elapsed Time: 240 ms
+	DatabaseThreads
+		 Start: 87078(device6_intouch.log)
+		 Completed: 87088(device6_intouch.log)
+		 Elapsed Time: 3747 ms
+	SoftLoadService
+		 Start: 87080(device6_intouch.log)
+		 Completed: 87099(device6_intouch.log)
+		 Elapsed Time: 4041 ms
+
+=== Device boot ===
+87116(device6_intouch.log): 2014-04-11 13:28:25 Boot Start
+87286(device6_intouch.log): 2014-04-11 13:31:12 Boot Completed
+	Boot Time: 167000ms
+
+Services
+	Logging
+		 Start: 87136(device6_intouch.log)
+		 Completed: 87137(device6_intouch.log)
+		 Elapsed Time: 322 ms
+	DatabaseInitialize
+		 Start: 87138(device6_intouch.log)
+		 Completed: 87164(device6_intouch.log)
+		 Elapsed Time: 34023 ms
+	MessagingService
+		 Start: 87165(device6_intouch.log)
+		 Completed: 87167(device6_intouch.log)
+		 Elapsed Time: 6415 ms
+	HealthMonitorService
+		 Start: 87178(device6_intouch.log)
+		 Completed: 87179(device6_intouch.log)
+		 Elapsed Time: 152 ms
+	Persistence
+		 Start: 87180(device6_intouch.log)
+		 Completed: 87181(device6_intouch.log)
+		 Elapsed Time: 20159 ms
+	ConfigurationService
+		 Start: 87182(device6_intouch.log)
+		 Completed: 87183(device6_intouch.log)
+		 Elapsed Time: 0 ms
+	LandingPadService
+		 Start: 87184(device6_intouch.log)
+		 Completed: 87185(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	DeviceIOService
+		 Start: 87186(device6_intouch.log)
+		 Completed: 87187(device6_intouch.log)
+		 Elapsed Time: 28 ms
+	GateService
+		 Start: 87188(device6_intouch.log)
+		 Completed: 87189(device6_intouch.log)
+		 Elapsed Time: 415 ms
+	ThemingService
+		 Start: 87190(device6_intouch.log)
+		 Completed: 87191(device6_intouch.log)
+		 Elapsed Time: 1 ms
+	PortConfigurationService
+		 Start: 87192(device6_intouch.log)
+		 Completed: 87193(device6_intouch.log)
+		 Elapsed Time: 37 ms
+	CacheService
+		 Start: 87194(device6_intouch.log)
+		 Completed: 87195(device6_intouch.log)
+		 Elapsed Time: 1096 ms
+	AVFeedbackService
+		 Start: 87196(device6_intouch.log)
+		 Completed: 87197(device6_intouch.log)
+		 Elapsed Time: 55 ms
+	StagingService
+		 Start: 87198(device6_intouch.log)
+		 Completed: 87199(device6_intouch.log)
+		 Elapsed Time: 8737 ms
+	ReaderDataService
+		 Start: 87200(device6_intouch.log)
+		 Completed: 87201(device6_intouch.log)
+		 Elapsed Time: 3 ms
+	BellService
+		 Start: 87202(device6_intouch.log)
+		 Completed: 87203(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	BiometricService
+		 Start: 87204(device6_intouch.log)
+		 Completed: 87205(device6_intouch.log)
+		 Elapsed Time: 688 ms
+	StateManager
+		 Start: 87206(device6_intouch.log)
+		 Completed: 87207(device6_intouch.log)
+		 Elapsed Time: 2958 ms
+	OfflineSmartviewService
+		 Start: 87208(device6_intouch.log)
+		 Completed: 87209(device6_intouch.log)
+		 Elapsed Time: 22 ms
+	DiagnosticsService
+		 Start: 87259(device6_intouch.log)
+		 Completed: 87260(device6_intouch.log)
+		 Elapsed Time: 158 ms
+	WATCHDOG
+		 Start: 87257(device6_intouch.log)
+		 Completed: 87261(device6_intouch.log)
+		 Elapsed Time: 376 ms
+	SoftLoadService
+		 Start: 87256(device6_intouch.log)
+		 Completed: 87263(device6_intouch.log)
+		 Elapsed Time: 3323 ms
+	DatabaseThreads
+		 Start: 87254(device6_intouch.log)
+		 Completed: 87265(device6_intouch.log)
+		 Elapsed Time: 3552 ms
+
+=== Device boot ===
+87836(device6_intouch.log): 2014-04-11 13:58:02 Boot Start
+88009(device6_intouch.log): 2014-04-11 14:00:49 Boot Completed
+	Boot Time: 167000ms
+
+Services
+	Logging
+		 Start: 87857(device6_intouch.log)
+		 Completed: 87858(device6_intouch.log)
+		 Elapsed Time: 331 ms
+	DatabaseInitialize
+		 Start: 87859(device6_intouch.log)
+		 Completed: 87885(device6_intouch.log)
+		 Elapsed Time: 35524 ms
+	MessagingService
+		 Start: 87886(device6_intouch.log)
+		 Completed: 87888(device6_intouch.log)
+		 Elapsed Time: 6809 ms
+	HealthMonitorService
+		 Start: 87899(device6_intouch.log)
+		 Completed: 87900(device6_intouch.log)
+		 Elapsed Time: 166 ms
+	Persistence
+		 Start: 87901(device6_intouch.log)
+		 Completed: 87904(device6_intouch.log)
+		 Elapsed Time: 19998 ms
+	ConfigurationService
+		 Start: 87905(device6_intouch.log)
+		 Completed: 87906(device6_intouch.log)
+		 Elapsed Time: 0 ms
+	LandingPadService
+		 Start: 87907(device6_intouch.log)
+		 Completed: 87908(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	PortConfigurationService
+		 Start: 87909(device6_intouch.log)
+		 Completed: 87910(device6_intouch.log)
+		 Elapsed Time: 39 ms
+	CacheService
+		 Start: 87911(device6_intouch.log)
+		 Completed: 87912(device6_intouch.log)
+		 Elapsed Time: 1542 ms
+	ThemingService
+		 Start: 87913(device6_intouch.log)
+		 Completed: 87914(device6_intouch.log)
+		 Elapsed Time: 1 ms
+	StagingService
+		 Start: 87915(device6_intouch.log)
+		 Completed: 87916(device6_intouch.log)
+		 Elapsed Time: 8060 ms
+	DeviceIOService
+		 Start: 87917(device6_intouch.log)
+		 Completed: 87918(device6_intouch.log)
+		 Elapsed Time: 24 ms
+	AVFeedbackService
+		 Start: 87919(device6_intouch.log)
+		 Completed: 87920(device6_intouch.log)
+		 Elapsed Time: 37 ms
+	ReaderDataService
+		 Start: 87921(device6_intouch.log)
+		 Completed: 87922(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	BellService
+		 Start: 87923(device6_intouch.log)
+		 Completed: 87924(device6_intouch.log)
+		 Elapsed Time: 203 ms
+	GateService
+		 Start: 87925(device6_intouch.log)
+		 Completed: 87926(device6_intouch.log)
+		 Elapsed Time: 1 ms
+	BiometricService
+		 Start: 87927(device6_intouch.log)
+		 Completed: 87928(device6_intouch.log)
+		 Elapsed Time: 669 ms
+	StateManager
+		 Start: 87929(device6_intouch.log)
+		 Completed: 87930(device6_intouch.log)
+		 Elapsed Time: 2798 ms
+	OfflineSmartviewService
+		 Start: 87931(device6_intouch.log)
+		 Completed: 87932(device6_intouch.log)
+		 Elapsed Time: 22 ms
+	DiagnosticsService
+		 Start: 87982(device6_intouch.log)
+		 Completed: 87983(device6_intouch.log)
+		 Elapsed Time: 229 ms
+	WATCHDOG
+		 Start: 87979(device6_intouch.log)
+		 Completed: 87984(device6_intouch.log)
+		 Elapsed Time: 321 ms
+	DatabaseThreads
+		 Start: 87977(device6_intouch.log)
+		 Completed: 87987(device6_intouch.log)
+		 Elapsed Time: 3549 ms
+	SoftLoadService
+		 Start: 87980(device6_intouch.log)
+		 Completed: 87989(device6_intouch.log)
+		 Elapsed Time: 3776 ms
+
+=== Device boot ===
+88983(device6_intouch.log): 2014-04-11 14:23:42 Boot Start
+89155(device6_intouch.log): 2014-04-11 14:26:31 Boot Completed
+	Boot Time: 169000ms
+
+Services
+	Logging
+		 Start: 89004(device6_intouch.log)
+		 Completed: 89005(device6_intouch.log)
+		 Elapsed Time: 311 ms
+	DatabaseInitialize
+		 Start: 89006(device6_intouch.log)
+		 Completed: 89030(device6_intouch.log)
+		 Elapsed Time: 35720 ms
+	MessagingService
+		 Start: 89033(device6_intouch.log)
+		 Completed: 89035(device6_intouch.log)
+		 Elapsed Time: 6065 ms
+	HealthMonitorService
+		 Start: 89046(device6_intouch.log)
+		 Completed: 89047(device6_intouch.log)
+		 Elapsed Time: 223 ms
+	Persistence
+		 Start: 89048(device6_intouch.log)
+		 Completed: 89049(device6_intouch.log)
+		 Elapsed Time: 20056 ms
+	ConfigurationService
+		 Start: 89050(device6_intouch.log)
+		 Completed: 89051(device6_intouch.log)
+		 Elapsed Time: 0 ms
+	CacheService
+		 Start: 89052(device6_intouch.log)
+		 Completed: 89053(device6_intouch.log)
+		 Elapsed Time: 987 ms
+	DeviceIOService
+		 Start: 89054(device6_intouch.log)
+		 Completed: 89055(device6_intouch.log)
+		 Elapsed Time: 26 ms
+	GateService
+		 Start: 89056(device6_intouch.log)
+		 Completed: 89057(device6_intouch.log)
+		 Elapsed Time: 169 ms
+	AVFeedbackService
+		 Start: 89058(device6_intouch.log)
+		 Completed: 89059(device6_intouch.log)
+		 Elapsed Time: 45 ms
+	LandingPadService
+		 Start: 89060(device6_intouch.log)
+		 Completed: 89061(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	StagingService
+		 Start: 89062(device6_intouch.log)
+		 Completed: 89063(device6_intouch.log)
+		 Elapsed Time: 7935 ms
+	ReaderDataService
+		 Start: 89064(device6_intouch.log)
+		 Completed: 89065(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	BiometricService
+		 Start: 89066(device6_intouch.log)
+		 Completed: 89067(device6_intouch.log)
+		 Elapsed Time: 688 ms
+	StateManager
+		 Start: 89068(device6_intouch.log)
+		 Completed: 89069(device6_intouch.log)
+		 Elapsed Time: 2935 ms
+	OfflineSmartviewService
+		 Start: 89070(device6_intouch.log)
+		 Completed: 89071(device6_intouch.log)
+		 Elapsed Time: 22 ms
+	BellService
+		 Start: 89072(device6_intouch.log)
+		 Completed: 89073(device6_intouch.log)
+		 Elapsed Time: 1 ms
+	PortConfigurationService
+		 Start: 89074(device6_intouch.log)
+		 Completed: 89075(device6_intouch.log)
+		 Elapsed Time: 63 ms
+	ThemingService
+		 Start: 89076(device6_intouch.log)
+		 Completed: 89077(device6_intouch.log)
+		 Elapsed Time: 0 ms
+	DiagnosticsService
+		 Start: 89127(device6_intouch.log)
+		 Completed: 89128(device6_intouch.log)
+		 Elapsed Time: 169 ms
+	WATCHDOG
+		 Start: 89124(device6_intouch.log)
+		 Completed: 89129(device6_intouch.log)
+		 Elapsed Time: 258 ms
+	SoftLoadService
+		 Start: 89125(device6_intouch.log)
+		 Completed: 89132(device6_intouch.log)
+		 Elapsed Time: 3584 ms
+	DatabaseThreads
+		 Start: 89122(device6_intouch.log)
+		 Completed: 89134(device6_intouch.log)
+		 Elapsed Time: 3717 ms
+
+=== Device boot ===
+90112(device6_intouch.log): 2014-04-14 12:13:59 Boot Start
+**** Incomplete boot ****
+
+=== Device boot ===
+90135(device6_intouch.log): 2014-04-14 12:16:13 Boot Start
+**** Incomplete boot ****
+
+=== Device boot ===
+90176(device6_intouch.log): 2014-04-14 12:18:44 Boot Start
+90307(device6_intouch.log): 2014-04-14 12:21:25 Boot Completed
+	Boot Time: 161000ms
+
+Services
+	Logging
+		 Start: 90196(device6_intouch.log)
+		 Completed: 90197(device6_intouch.log)
+		 Elapsed Time: 289 ms
+	DatabaseInitialize
+		 Start: 90198(device6_intouch.log)
+		 Completed: 90224(device6_intouch.log)
+		 Elapsed Time: 33067 ms
+	MessagingService
+		 Start: 90225(device6_intouch.log)
+		 Completed: 90227(device6_intouch.log)
+		 Elapsed Time: 3825 ms
+	HealthMonitorService
+		 Start: 90238(device6_intouch.log)
+		 Completed: 90239(device6_intouch.log)
+		 Elapsed Time: 205 ms
+	Persistence
+		 Start: 90240(device6_intouch.log)
+		 Completed: 90241(device6_intouch.log)
+		 Elapsed Time: 18401 ms
+	ConfigurationService
+		 Start: 90242(device6_intouch.log)
+		 Completed: 90243(device6_intouch.log)
+		 Elapsed Time: 0 ms
+	CacheService
+		 Start: 90244(device6_intouch.log)
+		 Completed: 90245(device6_intouch.log)
+		 Elapsed Time: 981 ms
+	DeviceIOService
+		 Start: 90246(device6_intouch.log)
+		 Completed: 90247(device6_intouch.log)
+		 Elapsed Time: 27 ms
+	GateService
+		 Start: 90248(device6_intouch.log)
+		 Completed: 90249(device6_intouch.log)
+		 Elapsed Time: 164 ms
+	AVFeedbackService
+		 Start: 90250(device6_intouch.log)
+		 Completed: 90251(device6_intouch.log)
+		 Elapsed Time: 49 ms
+	LandingPadService
+		 Start: 90252(device6_intouch.log)
+		 Completed: 90253(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	StagingService
+		 Start: 90254(device6_intouch.log)
+		 Completed: 90255(device6_intouch.log)
+		 Elapsed Time: 7947 ms
+	ReaderDataService
+		 Start: 90256(device6_intouch.log)
+		 Completed: 90257(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	BiometricService
+		 Start: 90258(device6_intouch.log)
+		 Completed: 90259(device6_intouch.log)
+		 Elapsed Time: 666 ms
+	StateManager
+		 Start: 90260(device6_intouch.log)
+		 Completed: 90261(device6_intouch.log)
+		 Elapsed Time: 2657 ms
+	OfflineSmartviewService
+		 Start: 90262(device6_intouch.log)
+		 Completed: 90263(device6_intouch.log)
+		 Elapsed Time: 16 ms
+	BellService
+		 Start: 90264(device6_intouch.log)
+		 Completed: 90265(device6_intouch.log)
+		 Elapsed Time: 2 ms
+	PortConfigurationService
+		 Start: 90266(device6_intouch.log)
+		 Completed: 90267(device6_intouch.log)
+		 Elapsed Time: 65 ms
+	ThemingService
+		 Start: 90268(device6_intouch.log)
+		 Completed: 90269(device6_intouch.log)
+		 Elapsed Time: 0 ms
+	DiagnosticsService
+		 Start: 90293(device6_intouch.log)
+		 Completed: 90297(device6_intouch.log)
+		 Elapsed Time: 192 ms
+	WATCHDOG
+		 Start: 90296(device6_intouch.log)
+		 Completed: 90298(device6_intouch.log)
+		 Elapsed Time: 557 ms
+	SoftLoadService
+		 Start: 90295(device6_intouch.log)
+		 Completed: 90302(device6_intouch.log)
+		 Elapsed Time: 3501 ms
+	DatabaseThreads
+		 Start: 90291(device6_intouch.log)
+		 Completed: 90303(device6_intouch.log)
+		 Elapsed Time: 3564 ms
+
