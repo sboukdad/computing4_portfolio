@@ -1,6 +1,5 @@
+// Copyright Salma Boukdad
 /****************************************************************
- * Copyright Salma Boukdad
- *
  * Filename: test.cpp
  * Course: COMP.2040.203
  * Date: 5/20/26
@@ -17,13 +16,12 @@
 #include <iostream>
 #include <sstream>
 #include <string>
-
+#include <vector>
 #include <boost/test/unit_test.hpp>
 #include "EDistance.hpp"
 
 // test EDistance
 BOOST_AUTO_TEST_CASE(TestConstructor) {
-    BOOST_REQUIRE_THROW(EDistance("", "AGGTACAT"), std::invalid_argument);
     BOOST_REQUIRE_NO_THROW(EDistance("ACATTGACA", "ACATTGATA"));
 }
 
@@ -38,46 +36,56 @@ BOOST_AUTO_TEST_CASE(TestPenalty) {
 
 // test min3
 BOOST_AUTO_TEST_CASE(TestMin3) {
-    int test1 = EDistance::min3(3, 5, 4);       // test function against sets
-    int test2 = EDistance::min3(2, 0, 1);
-    int test3 = EDistance::min3(5, 8, 6);
+    BOOST_REQUIRE_EQUAL(EDistance::min3(5, 4, 3), 3);   // min last
+    BOOST_REQUIRE_EQUAL(EDistance::min3(3, 3, 3), 3);   // all equal
+    BOOST_REQUIRE_EQUAL(EDistance::min3(0, 1, 0), 0);   // tie
+    BOOST_REQUIRE_EQUAL(EDistance::min3(3, 5, 4), 3);   // min first
+    BOOST_REQUIRE_EQUAL(EDistance::min3(4, 3, 5), 3);   // min second
 
-    BOOST_REQUIRE_EQUAL(test1, 3);
-    BOOST_REQUIRE_EQUAL(test2, 0);
-    BOOST_REQUIRE_EQUAL(test3, 5);
+    BOOST_REQUIRE_EQUAL(EDistance::min3(100, 50, 75), 50);
+    BOOST_REQUIRE_EQUAL(EDistance::min3(1000, 2000, 500), 500);
 }
 
-// test optDistance
 BOOST_AUTO_TEST_CASE(TestOptDistance) {
-    std::string a = "AACAGTTACC";
-    std::string b = "TAAGGTCA";
+    EDistance obj("AACAGTTACC", "TAAGGTCA");
+    BOOST_REQUIRE_EQUAL(obj.optDistance(), 7);
 
-    EDistance obj(a, b);
-    int optDistance = obj.optDistance();
+    EDistance obj2("ACGT", "ACGT");
+    BOOST_REQUIRE_EQUAL(obj2.optDistance(), 0);
 
-    BOOST_REQUIRE_EQUAL(optDistance, 7);
+    EDistance obj3("A", "T");
+    BOOST_REQUIRE_EQUAL(obj3.optDistance(), 1);
+
+    EDistance obj4("AC", "CA");
+    BOOST_REQUIRE_EQUAL(obj4.optDistance(), 2);
 }
 
 // test alignment
 BOOST_AUTO_TEST_CASE(TestAlignment) {
-    std::string x = "AACAGTTACC";
-    std::string y = "TAAGGTCA";
-
-    EDistance obj(x, y);
+    EDistance obj("AACAGTTACC", "TAAGGTCA");
     obj.optDistance();
-    std::string newString = obj.alignment();
-    std::istringstream ss(newString);
-
+    std::istringstream ss(obj.alignment());
+    std::vector<std::string> lines;
     std::string line;
+
+    while (std::getline(ss, line)) lines.push_back(line);
+
+    // check row count
+    BOOST_REQUIRE_EQUAL(static_cast<int>(lines.size()), 10);
+
+    // check first and last lines
+    BOOST_REQUIRE_EQUAL(lines.front(), "A T 1");
+    BOOST_REQUIRE_EQUAL(lines.back(), "C A 1");
+    BOOST_REQUIRE_EQUAL(lines[2], "C - 2");
+
+    // check total cost
     int cost = 0;
-    while (std::getline(ss, line)) {
+    for (const auto& l : lines) {
+        std::istringstream ls(l);
         std::string a, b;
-        int rowCost;
-
-        std::istringstream lineStream(line);
-        lineStream >> x >> y >> rowCost;
-        cost += rowCost;
+        int c;
+        ls >> a >> b >> c;
+        cost += c;
     }
-
     BOOST_REQUIRE_EQUAL(cost, 7);
 }

@@ -1,6 +1,5 @@
+// Copyright 2026 Salma Boukdad
 /*******************************************************
- * Copyright Salma Boukdad
- *
  * Filename: EDistance.hpp
  * Course: COMP.2040.203
  * Date: 5/20/26
@@ -12,7 +11,6 @@
 #pragma once
 #ifndef EDISTANCE_HPP
 #define EDISTANCE_HPP
-
 #include <string>
 #include <vector>
 
@@ -25,6 +23,7 @@ class EDistance {
 
   int optDistance();         // fills the matrix
   std::string alignment();   // sums up the costs
+
  private:
   std::string x, y;                          // x: stringX, y: stringY
   int M, N;                                  // M: size of x, N: size of y
