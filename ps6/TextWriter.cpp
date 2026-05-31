@@ -9,9 +9,15 @@
 
 #include <iostream>
 #include <string>
+#include <stdexcept>
 #include "RandWriter.hpp"
 
 int main(int argc, char* argv[]) {
+    if (argc != 3) {
+        std::cerr << "Usage: ./TextWriter k L < input.txt\n";
+        return 1;
+    }
+
     int k = std::stoi(argv[1]);
     int L = std::stoi(argv[2]);
 
@@ -20,7 +26,7 @@ int main(int argc, char* argv[]) {
     // read all of stdin into text
     std::string line;
     while (std::getline(std::cin, line)) {
-        text += line + "\n";
+        text += line;
     }
 
     RandWriter rw(text, k);

@@ -9,8 +9,17 @@
 ***********************************************************/
 
 #include "RandWriter.hpp"
+#include <iostream>
+#include <algorithm>
+#include <numeric>
+#include <utility>
+#include <string>
 
 RandWriter::RandWriter(const std::string& str, size_t k) {
+    if (str.size() < k) {
+        throw std::logic_error("text length must be at least k");
+    }
+
     // initialize Markov model map
     this->k = k;
     text = str;
@@ -27,15 +36,13 @@ RandWriter::RandWriter(const std::string& str, size_t k) {
         // update map
         freqMap[kgram][next]++;
 
-        // print kgram
-        std::cout << "kgram: \"" << kgram << "\" -> next: '" << next << "'\n";
-        
         if (alphabet.find(next) == std::string::npos) {
             alphabet += next;
         }
     }
 
-    rng = std::mt19937(std::chrono::system_clock::now().time_since_epoch().count());
+    rng = std::mt19937(
+        std::chrono::system_clock::now().time_since_epoch().count());
 }
 
 // order k of Markov model
@@ -62,10 +69,10 @@ int RandWriter::freq(const std::string& kgram) const {
     }
 
     // sum all character frequencies for this kgram
-    int total = 0;
-    for (auto& pair : it->second) {
-        total += pair.second;
-    }
+    int total = std::accumulate(it->second.begin(), it->second.end(), 0,
+                                [](int sum, const std::pair<char, int> &p) {
+                                    return sum + p.second;
+                                });
 
     return total;
 }
@@ -79,7 +86,7 @@ int RandWriter::freq(const std::string& kgram, char c) const {
 
     // order 0 edge case: count occurrences of c in text
     if (k == 0) {
-        return text.size();
+        return std::count(text.begin(), text.end(), c);
     }
 
     // find kgram in outer map
@@ -111,7 +118,7 @@ char RandWriter::kRand(const std::string& kgram) {
     }
 
     // count total times anything followed this kgram
-    int total = freq(kgram);    
+    int total = freq(kgram);
 
     // roll a random number between 1 and total
     std::uniform_int_distribution<int> dist(1, total);
@@ -130,6 +137,7 @@ char RandWriter::kRand(const std::string& kgram) {
     throw std::runtime_error("krand failed to pick a character");
 }
 
+// generate string starting w/ kgram to size l through Markov chain
 std::string RandWriter::generate(const std::string& kgram, size_t l) {
     // error check
     if (kgram.size() != k) {
@@ -146,13 +154,14 @@ std::string RandWriter::generate(const std::string& kgram, size_t l) {
     return result;
 }
 
+// print RandWriter
 std::ostream& operator<<(std::ostream& out, const RandWriter& rw) {
     // print: order k
     // alphabet
     // kgram : frequencies ["kgram"=int] ...
     out << "Order: " << rw.k << std::endl;              // print order k
     out << "Alphabet: " << rw.alphabet << std::endl;    // print alphabet
-    
+
     for (auto& pair : rw.freqMap) {           // print all frequencies in kgram
         out << "\"" << pair.first << "\": ";
 

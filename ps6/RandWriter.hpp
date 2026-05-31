@@ -6,12 +6,9 @@
  * @Date: 5/25/26
  * @Description: 
 ***********************************************************/
-
-#ifndef RANDWRITER_HPP
-#define RANDWRITER_HPP
-
 #pragma once
 #include <iostream>
+#include <stdexcept>
 #include <string>
 #include <random>
 #include <chrono>
@@ -20,40 +17,40 @@
 
 class RandWriter {
  public:
-   // Create a Markov model of order k from given text
-   // Assume that text has length at least k.
-   RandWriter(const std::string& str, size_t k);
+  // Create a Markov model of order k from given text
+  // Assume that text has length at least k.
+  RandWriter(const std::string& str, size_t k);
 
-   size_t orderK() const; // Order k of Markov model
+  size_t orderK() const;   // Order k of Markov model
 
-   // Number of occurences of kgram in text
-   // Throw an exception if kgram is not length k
-   int freq(const std::string& kgram) const;
+  // Number of occurences of kgram in text
+  // Throw an exception if kgram is not length k
+  int freq(const std::string& kgram) const;
 
-   // Number of times that character c follows kgram
-   // if order=0, return num of times that char c appears
-   // (throw an exception if kgram is not of length k)
-   int freq(const std::string& kgram, char c) const;
+  // Number of times that character c follows kgram
+  // if order=0, return num of times that char c appears
+  // (throw an exception if kgram is not of length k)
+  int freq(const std::string& kgram, char c) const;
 
-   // Random character following given kgram
-   // (throw an exception if kgram is not of length k)
-   // (throw an exception if no such kgram)
-   char kRand(const std::string& kgram);
+  // Random character following given kgram
+  // (throw an exception if kgram is not of length k)
+  // (throw an exception if no such kgram)
+  char kRand(const std::string& kgram);
 
-   // Generate a string of length L characters by simulating a trajectory
-   // through the corresponding Markov chain. The first k characters of
-   // the newly generated string should be the argument kgram.
-   // Throw an exception if kgram is not of length k.
-   // Assume that L is at least k
-   std::string generate(const std::string& kgram, size_t l);
+  // Generate a string of length L characters by simulating a trajectory
+  // through the corresponding Markov chain. The first k characters of
+  // the newly generated string should be the argument kgram.
+  // Throw an exception if kgram is not of length k.
+  // Assume that L is at least k
+  std::string generate(const std::string& kgram, size_t l);
 
-   friend std::ostream& operator<<(std::ostream &out, const RandWriter &rw);
+  // print RandWriter
+  friend std::ostream& operator<<(std::ostream &out, const RandWriter &rw);
 
-private:
-   // Private member variables go here
-   size_t k;
-   std::string text, alphabet;      // letters that make 
-   std::mt19937 rng;
-   std::map<std::string, std::map<char, int>> freqMap;
+ private:
+  // Private member variables go here
+  size_t k;
+  std::string text, alphabet;      // letters that make
+  std::mt19937 rng;
+  std::map<std::string, std::map<char, int>> freqMap;
 };
-#endif
